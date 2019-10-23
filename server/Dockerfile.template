@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 RUN install_packages busybox-extras
 COPY *.html ./
 
-CMD busybox-extras httpd -f -p 8000
+CMD busybox-extras httpd -f -p 80
